@@ -1,0 +1,78 @@
+body {
+  background-color: #B3B6BD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  direction: rtl;
+}
+
+section {
+  width: 50rem;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+section main {
+  background-color: #5198D0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42rem;
+  height: 25rem;
+  position: absolute;
+  -webkit-box-shadow: 4.5px 9.5px 15.5px 7px #b7b4b4;
+  -moz-box-shadow: 4.5px 9.5px 15.5px 7px #b7b4b4;
+  box-shadow: 4.5px 9.5px 15.5px 7px #b7b4b4;
+}
+section main p {
+  color: white;
+  font-weight: bold;
+  width: 36rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+section h1 {
+  position: absolute;
+  top: -6rem;
+  right: 10rem;
+  color: white;
+  z-index: 1000;
+  font-size: 5rem;
+  text-shadow: 9px 5px 5px gray;
+}
+section .up {
+  font-size: 13rem;
+  position: absolute;
+  top: 0;
+  color: white;
+  left: 0;
+  text-shadow: -7px 7px 5px grey;
+}
+section .down {
+  font-size: 13rem;
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  text-shadow: -7px -2px 5px grey;
+}
+section button {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 3rem;
+  background: white;
+  border: none;
+  padding: 0.5rem 2rem;
+  color: #5198D0;
+  font-weight: bold;
+  border-radius: 10px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
